@@ -58,6 +58,8 @@ torchrun --nproc_per_node 1 example_chat_completion.py \
 - Adjust the `max_seq_len` and `max_batch_size` parameters as needed.
 - This example runs the [example_chat_completion.py](example_chat_completion.py) found in this repository but you can change that to a different .py file.
 
+Then to run the script: `./download.sh`. There are optional ENV variables that can be used for automation.
+
 ## Inference
 
 Different models require different model-parallel (MP) values:
